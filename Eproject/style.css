@@ -1,0 +1,179 @@
+/* body{
+    background-color: rgb(253, 234, 209);
+} */
+.container-fluid{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.logo{
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+.logo_text{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    color: brown;
+    
+}
+.stylists{
+    background-color: brown;
+    color: white;
+    text-align: center;
+}
+.imgclass{
+    border: 1px solid white;
+    border-radius: 50%;
+}
+.aboutus{
+    color: brown;
+    border-left: 2px solid brown;
+    border-bottom: 2px solid brown;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: justify;
+    display: block;
+}
+.aboutusheading{
+    background-color: brown;
+    color: white;
+}
+.footer{
+    height: 200px;
+    background-color: brown;
+    border-bottom: 1px solid brown;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.stylistfooter{
+    background-color: brown;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    color: white;
+    text-decoration: none;
+    
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+.new{
+    margin: 10px;
+    padding: 20px;
+    color: brown;
+    background-color: white;
+    text-align: center; 
+}
+.head2{
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.head1{
+    margin: 10px;
+    padding: 10px;
+    text-decoration: none;
+    color:black;
+    font-weight: 800;
+    font-size: 30px;
+}
+.para{
+    margin-top: 30px;
+}
+main{
+    
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:white;
+}
+.product-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 20px;
+}
+
+.product-card {
+    position: relative;
+    width: 250px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 0px 15px 2px brown,
+     0px 0px 15px 2px brown;
+    background-color: white;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.product-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 0px 15px 2px gray;
+}
+
+.product-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0px 0px 15px 2px brown,
+    0px 0px 15px 2px brown;
+}
+
+.product-card:hover .product-img {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 15px 2px gray,
+     0px 0px 15px 2px grey;
+}
+
+.product-info {
+    padding: 15px;
+    text-align: center;
+}
+
+.product-info h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.product-info p {
+    font-size: 0.9em;
+    color: black;
+    margin-bottom: 15px;
+}
+
+.price {
+    font-weight: bold;
+    color: brown;
+}
+
+.add-btn {
+    background-color: brown;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.add-btn:hover {
+    background-color:burlywood;
+      box-shadow: 0px 0px 15px 2px rgba(222, 184, 135, 0.74),
+     0px 0px 15px 2px rgba(222, 184, 135, 0.788);
+     color: white;
+}
+.hr{
+    text-align: center;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+}
